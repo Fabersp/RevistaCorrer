@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7627A44C1D9492B000023CC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7627A44B1D9492B000023CC0 /* GoogleService-Info.plist */; };
+		7627A44F1D94C04D00023CC0 /* CellCalendario.m in Sources */ = {isa = PBXBuildFile; fileRef = 7627A44E1D94C04D00023CC0 /* CellCalendario.m */; };
+		7664B5611D410C39003DE529 /* logoCultura2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7664B5601D410C39003DE529 /* logoCultura2.png */; };
+		7664B5641D411019003DE529 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7664B5631D411019003DE529 /* Reachability.m */; };
+		76799AE61D88D6FA00FB7996 /* TableJornal.m in Sources */ = {isa = PBXBuildFile; fileRef = 76799AE51D88D6FA00FB7996 /* TableJornal.m */; };
+		7682E95B1E2D56540028F9CB /* rangel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7682E95A1E2D56540028F9CB /* rangel.png */; };
+		768BE9A21DE86DC700D84804 /* EdicoesColletionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 768BE9A11DE86DC700D84804 /* EdicoesColletionCell.m */; };
+		76CBA87F1CF4C5FF00D6A8BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CBA87E1CF4C5FF00D6A8BF /* UIKit.framework */; };
+		76CBA8811CF4C60700D6A8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CBA8801CF4C60700D6A8BF /* Foundation.framework */; };
+		76CBA8831CF4C60E00D6A8BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CBA8821CF4C60E00D6A8BF /* CoreGraphics.framework */; };
+		76CBA91A1CF519B000D6A8BF /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9191CF519B000D6A8BF /* download.png */; };
+		76CBA91C1CF519D900D6A8BF /* download200.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA91B1CF519D900D6A8BF /* download200.png */; };
+		76CBA91E1CF51A1500D6A8BF /* download150.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA91D1CF51A1500D6A8BF /* download150.png */; };
+		76CBA9201CF51AE900D6A8BF /* download70.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA91F1CF51AE900D6A8BF /* download70.png */; };
+		76CBA9221CF51C2400D6A8BF /* Cópia de download.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9211CF51C2400D6A8BF /* Cópia de download.png */; };
+		76CBA9241CF52C5C00D6A8BF /* anuncieBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9231CF52C5C00D6A8BF /* anuncieBanner.png */; };
+		76CBA9261CF5348600D6A8BF /* anuncie_Fotor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9251CF5348600D6A8BF /* anuncie_Fotor.jpg */; };
+		76CBA9291CF5446E00D6A8BF /* ViewContato.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CBA9281CF5446E00D6A8BF /* ViewContato.m */; };
+		76CBA92C1CF545FE00D6A8BF /* design.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA92A1CF545FE00D6A8BF /* design.png */; };
+		76CBA92D1CF545FE00D6A8BF /* design@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA92B1CF545FE00D6A8BF /* design@2x.png */; };
+		76CBA92F1CF5466300D6A8BF /* Logo_Promaster.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA92E1CF5466300D6A8BF /* Logo_Promaster.png */; };
+		76CBA93E1CF5518700D6A8BF /* content.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA93C1CF5518700D6A8BF /* content.png */; };
+		76CBA93F1CF5518700D6A8BF /* content@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA93D1CF5518700D6A8BF /* content@2x.png */; };
+		76CBA9411CF5524800D6A8BF /* logo140.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9401CF5524800D6A8BF /* logo140.png */; };
+		76CBA9441CF6172D00D6A8BF /* user_manual.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9421CF6172D00D6A8BF /* user_manual.png */; };
+		76CBA9451CF6172D00D6A8BF /* user_manual@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9431CF6172D00D6A8BF /* user_manual@2x.png */; };
+		76CBA9481CF61B0700D6A8BF /* phone_disconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9461CF61B0700D6A8BF /* phone_disconnected.png */; };
+		76CBA9491CF61B0700D6A8BF /* phone_disconnected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA9471CF61B0700D6A8BF /* phone_disconnected@2x.png */; };
+		76CBA94C1CF61D0E00D6A8BF /* edit_property.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA94A1CF61D0E00D6A8BF /* edit_property.png */; };
+		76CBA94D1CF61D0E00D6A8BF /* edit_property@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA94B1CF61D0E00D6A8BF /* edit_property@2x.png */; };
+		76CBA9501CF90BAB00D6A8BF /* cultura-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA94E1CF90BAB00D6A8BF /* cultura-logo.png */; };
+		76CBA9511CF90BAB00D6A8BF /* cultura-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76CBA94F1CF90BAB00D6A8BF /* cultura-logo@2x.png */; };
+		76CBA9561CFBB08D00D6A8BF /* ViewContatoCliente.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CBA9551CFBB08D00D6A8BF /* ViewContatoCliente.m */; };
+		76ECE6431CF00E7200ADEC8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECE6421CF00E7200ADEC8E /* main.m */; };
+		76ECE6461CF00E7200ADEC8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECE6451CF00E7200ADEC8E /* AppDelegate.m */; };
+		76ECE6491CF00E7200ADEC8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECE6481CF00E7200ADEC8E /* ViewController.m */; };
+		76ECE64C1CF00E7200ADEC8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECE64A1CF00E7200ADEC8E /* Main.storyboard */; };
+		76ECE64E1CF00E7200ADEC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ECE64D1CF00E7200ADEC8E /* Assets.xcassets */; };
+		76ECE6511CF00E7200ADEC8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECE64F1CF00E7200ADEC8E /* LaunchScreen.storyboard */; };
+		76ECE65D1CF00F0600ADEC8E /* CellNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECE65A1CF00F0600ADEC8E /* CellNews.m */; };
+		76ECE6641CF00F3E00ADEC8E /* DatailsNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECE6611CF00F3E00ADEC8E /* DatailsNew.m */; };
+		76ECE6691CF0132500ADEC8E /* TableEdicoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECE6681CF0132500ADEC8E /* TableEdicoes.m */; };
+		76ECE66C1CF0C84300ADEC8E /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECE66B1CF0C84300ADEC8E /* PageContentViewController.m */; };
+		791781817D869C6EFEBBBD1F /* libPods-RevistaCulturaCia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8110823D50D125CC2F440154 /* libPods-RevistaCulturaCia.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71CC0C6F00ADA61ED7217F71 /* Pods-RevistaCulturaCia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevistaCulturaCia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RevistaCulturaCia/Pods-RevistaCulturaCia.debug.xcconfig"; sourceTree = "<group>"; };
+		7627A44B1D9492B000023CC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7627A44D1D94C04D00023CC0 /* CellCalendario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCalendario.h; sourceTree = "<group>"; };
+		7627A44E1D94C04D00023CC0 /* CellCalendario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCalendario.m; sourceTree = "<group>"; };
+		7646D4BD1DEC9412002197FB /* RevistaCulturaCia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RevistaCulturaCia.entitlements; sourceTree = "<group>"; };
+		7664B5601D410C39003DE529 /* logoCultura2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoCultura2.png; sourceTree = "<group>"; };
+		7664B5621D411019003DE529 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7664B5631D411019003DE529 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		76799AE41D88D6FA00FB7996 /* TableJornal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableJornal.h; sourceTree = "<group>"; };
+		76799AE51D88D6FA00FB7996 /* TableJornal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableJornal.m; sourceTree = "<group>"; };
+		7682E95A1E2D56540028F9CB /* rangel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rangel.png; sourceTree = "<group>"; };
+		768BE9A01DE86DC700D84804 /* EdicoesColletionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdicoesColletionCell.h; sourceTree = "<group>"; };
+		768BE9A11DE86DC700D84804 /* EdicoesColletionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdicoesColletionCell.m; sourceTree = "<group>"; };
+		76CBA87E1CF4C5FF00D6A8BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76CBA8801CF4C60700D6A8BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76CBA8821CF4C60E00D6A8BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76CBA9191CF519B000D6A8BF /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		76CBA91B1CF519D900D6A8BF /* download200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download200.png; sourceTree = "<group>"; };
+		76CBA91D1CF51A1500D6A8BF /* download150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download150.png; sourceTree = "<group>"; };
+		76CBA91F1CF51AE900D6A8BF /* download70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download70.png; sourceTree = "<group>"; };
+		76CBA9211CF51C2400D6A8BF /* Cópia de download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cópia de download.png"; sourceTree = "<group>"; };
+		76CBA9231CF52C5C00D6A8BF /* anuncieBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anuncieBanner.png; sourceTree = "<group>"; };
+		76CBA9251CF5348600D6A8BF /* anuncie_Fotor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anuncie_Fotor.jpg; sourceTree = "<group>"; };
+		76CBA9271CF5446E00D6A8BF /* ViewContato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContato.h; sourceTree = "<group>"; };
+		76CBA9281CF5446E00D6A8BF /* ViewContato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewContato.m; sourceTree = "<group>"; };
+		76CBA92A1CF545FE00D6A8BF /* design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = design.png; sourceTree = "<group>"; };
+		76CBA92B1CF545FE00D6A8BF /* design@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "design@2x.png"; sourceTree = "<group>"; };
+		76CBA92E1CF5466300D6A8BF /* Logo_Promaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Promaster.png; sourceTree = "<group>"; };
+		76CBA93C1CF5518700D6A8BF /* content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content.png; sourceTree = "<group>"; };
+		76CBA93D1CF5518700D6A8BF /* content@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "content@2x.png"; sourceTree = "<group>"; };
+		76CBA9401CF5524800D6A8BF /* logo140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo140.png; sourceTree = "<group>"; };
+		76CBA9421CF6172D00D6A8BF /* user_manual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_manual.png; sourceTree = "<group>"; };
+		76CBA9431CF6172D00D6A8BF /* user_manual@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_manual@2x.png"; sourceTree = "<group>"; };
+		76CBA9461CF61B0700D6A8BF /* phone_disconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_disconnected.png; sourceTree = "<group>"; };
+		76CBA9471CF61B0700D6A8BF /* phone_disconnected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_disconnected@2x.png"; sourceTree = "<group>"; };
+		76CBA94A1CF61D0E00D6A8BF /* edit_property.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_property.png; sourceTree = "<group>"; };
+		76CBA94B1CF61D0E00D6A8BF /* edit_property@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_property@2x.png"; sourceTree = "<group>"; };
+		76CBA94E1CF90BAB00D6A8BF /* cultura-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cultura-logo.png"; sourceTree = "<group>"; };
+		76CBA94F1CF90BAB00D6A8BF /* cultura-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cultura-logo@2x.png"; sourceTree = "<group>"; };
+		76CBA9541CFBB08D00D6A8BF /* ViewContatoCliente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewContatoCliente.h; sourceTree = "<group>"; };
+		76CBA9551CFBB08D00D6A8BF /* ViewContatoCliente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewContatoCliente.m; sourceTree = "<group>"; };
+		76ECE63E1CF00E7000ADEC8E /* RevistaCulturaCia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevistaCulturaCia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ECE6421CF00E7200ADEC8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76ECE6441CF00E7200ADEC8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76ECE6451CF00E7200ADEC8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76ECE6471CF00E7200ADEC8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76ECE6481CF00E7200ADEC8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76ECE64B1CF00E7200ADEC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76ECE64D1CF00E7200ADEC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76ECE6501CF00E7200ADEC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76ECE6521CF00E7200ADEC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76ECE6591CF00F0600ADEC8E /* CellNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellNews.h; sourceTree = "<group>"; };
+		76ECE65A1CF00F0600ADEC8E /* CellNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellNews.m; sourceTree = "<group>"; };
+		76ECE6601CF00F3E00ADEC8E /* DatailsNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatailsNew.h; sourceTree = "<group>"; };
+		76ECE6611CF00F3E00ADEC8E /* DatailsNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatailsNew.m; sourceTree = "<group>"; };
+		76ECE6671CF0132500ADEC8E /* TableEdicoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableEdicoes.h; sourceTree = "<group>"; };
+		76ECE6681CF0132500ADEC8E /* TableEdicoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableEdicoes.m; sourceTree = "<group>"; };
+		76ECE66A1CF0C84300ADEC8E /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		76ECE66B1CF0C84300ADEC8E /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		8110823D50D125CC2F440154 /* libPods-RevistaCulturaCia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RevistaCulturaCia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AD20599FA79EFE87D5BCDB /* Pods-RevistaCulturaCia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevistaCulturaCia.release.xcconfig"; path = "Pods/Target Support Files/Pods-RevistaCulturaCia/Pods-RevistaCulturaCia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76ECE63B1CF00E7000ADEC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CBA8831CF4C60E00D6A8BF /* CoreGraphics.framework in Frameworks */,
+				76CBA8811CF4C60700D6A8BF /* Foundation.framework in Frameworks */,
+				76CBA87F1CF4C5FF00D6A8BF /* UIKit.framework in Frameworks */,
+				791781817D869C6EFEBBBD1F /* libPods-RevistaCulturaCia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FA5863E2FC528F728E3298 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71CC0C6F00ADA61ED7217F71 /* Pods-RevistaCulturaCia.debug.xcconfig */,
+				97AD20599FA79EFE87D5BCDB /* Pods-RevistaCulturaCia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76799AE31D88D40300FB7996 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7682E95A1E2D56540028F9CB /* rangel.png */,
+				76CBA94E1CF90BAB00D6A8BF /* cultura-logo.png */,
+				76CBA94F1CF90BAB00D6A8BF /* cultura-logo@2x.png */,
+				76CBA9421CF6172D00D6A8BF /* user_manual.png */,
+				76CBA9431CF6172D00D6A8BF /* user_manual@2x.png */,
+				76CBA9461CF61B0700D6A8BF /* phone_disconnected.png */,
+				76CBA9471CF61B0700D6A8BF /* phone_disconnected@2x.png */,
+				76CBA94A1CF61D0E00D6A8BF /* edit_property.png */,
+				76CBA94B1CF61D0E00D6A8BF /* edit_property@2x.png */,
+				76CBA92E1CF5466300D6A8BF /* Logo_Promaster.png */,
+				76CBA9401CF5524800D6A8BF /* logo140.png */,
+				76CBA92A1CF545FE00D6A8BF /* design.png */,
+				76CBA92B1CF545FE00D6A8BF /* design@2x.png */,
+				76CBA93C1CF5518700D6A8BF /* content.png */,
+				76CBA93D1CF5518700D6A8BF /* content@2x.png */,
+				76CBA9211CF51C2400D6A8BF /* Cópia de download.png */,
+				76CBA9191CF519B000D6A8BF /* download.png */,
+				76CBA91B1CF519D900D6A8BF /* download200.png */,
+				76CBA91D1CF51A1500D6A8BF /* download150.png */,
+				76CBA91F1CF51AE900D6A8BF /* download70.png */,
+				76CBA9231CF52C5C00D6A8BF /* anuncieBanner.png */,
+				76CBA9251CF5348600D6A8BF /* anuncie_Fotor.jpg */,
+				7664B5601D410C39003DE529 /* logoCultura2.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		76ECE6351CF00E7000ADEC8E = {
+			isa = PBXGroup;
+			children = (
+				76ECE6401CF00E7200ADEC8E /* RevistaCulturaCia */,
+				76ECE63F1CF00E7000ADEC8E /* Products */,
+				27FA5863E2FC528F728E3298 /* Pods */,
+				D3B8A1A5724B952042FBCCBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76ECE63F1CF00E7000ADEC8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76ECE63E1CF00E7000ADEC8E /* RevistaCulturaCia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76ECE6401CF00E7200ADEC8E /* RevistaCulturaCia */ = {
+			isa = PBXGroup;
+			children = (
+				7646D4BD1DEC9412002197FB /* RevistaCulturaCia.entitlements */,
+				7627A44B1D9492B000023CC0 /* GoogleService-Info.plist */,
+				76799AE31D88D40300FB7996 /* Image */,
+				76ECE67F1CF0CB0800ADEC8E /* Progress */,
+				76ECE66D1CF0C8C400ADEC8E /* PageView */,
+				76ECE6661CF00F4400ADEC8E /* Details */,
+				76ECE6581CF00ECE00ADEC8E /* Delegate */,
+				76ECE65F1CF00F1D00ADEC8E /* TableList */,
+				76ECE6471CF00E7200ADEC8E /* ViewController.h */,
+				76ECE6481CF00E7200ADEC8E /* ViewController.m */,
+				76ECE64A1CF00E7200ADEC8E /* Main.storyboard */,
+				76ECE64D1CF00E7200ADEC8E /* Assets.xcassets */,
+				76ECE64F1CF00E7200ADEC8E /* LaunchScreen.storyboard */,
+				76ECE6521CF00E7200ADEC8E /* Info.plist */,
+				76ECE6411CF00E7200ADEC8E /* Supporting Files */,
+			);
+			path = RevistaCulturaCia;
+			sourceTree = "<group>";
+		};
+		76ECE6411CF00E7200ADEC8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76ECE6421CF00E7200ADEC8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76ECE6581CF00ECE00ADEC8E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				76ECE6441CF00E7200ADEC8E /* AppDelegate.h */,
+				76ECE6451CF00E7200ADEC8E /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		76ECE65F1CF00F1D00ADEC8E /* TableList */ = {
+			isa = PBXGroup;
+			children = (
+				7664B5621D411019003DE529 /* Reachability.h */,
+				7664B5631D411019003DE529 /* Reachability.m */,
+				76CBA9541CFBB08D00D6A8BF /* ViewContatoCliente.h */,
+				76CBA9551CFBB08D00D6A8BF /* ViewContatoCliente.m */,
+				76CBA9271CF5446E00D6A8BF /* ViewContato.h */,
+				76CBA9281CF5446E00D6A8BF /* ViewContato.m */,
+				76ECE6591CF00F0600ADEC8E /* CellNews.h */,
+				76ECE65A1CF00F0600ADEC8E /* CellNews.m */,
+				7627A44D1D94C04D00023CC0 /* CellCalendario.h */,
+				7627A44E1D94C04D00023CC0 /* CellCalendario.m */,
+				76ECE6671CF0132500ADEC8E /* TableEdicoes.h */,
+				76ECE6681CF0132500ADEC8E /* TableEdicoes.m */,
+				76799AE41D88D6FA00FB7996 /* TableJornal.h */,
+				76799AE51D88D6FA00FB7996 /* TableJornal.m */,
+				768BE9A01DE86DC700D84804 /* EdicoesColletionCell.h */,
+				768BE9A11DE86DC700D84804 /* EdicoesColletionCell.m */,
+			);
+			name = TableList;
+			sourceTree = "<group>";
+		};
+		76ECE6661CF00F4400ADEC8E /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				76ECE6601CF00F3E00ADEC8E /* DatailsNew.h */,
+				76ECE6611CF00F3E00ADEC8E /* DatailsNew.m */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		76ECE66D1CF0C8C400ADEC8E /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				76ECE66A1CF0C84300ADEC8E /* PageContentViewController.h */,
+				76ECE66B1CF0C84300ADEC8E /* PageContentViewController.m */,
+			);
+			name = PageView;
+			sourceTree = "<group>";
+		};
+		76ECE67F1CF0CB0800ADEC8E /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Progress;
+			sourceTree = "<group>";
+		};
+		D3B8A1A5724B952042FBCCBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76CBA8821CF4C60E00D6A8BF /* CoreGraphics.framework */,
+				76CBA8801CF4C60700D6A8BF /* Foundation.framework */,
+				76CBA87E1CF4C5FF00D6A8BF /* UIKit.framework */,
+				8110823D50D125CC2F440154 /* libPods-RevistaCulturaCia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76ECE63D1CF00E7000ADEC8E /* RevistaCulturaCia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76ECE6551CF00E7200ADEC8E /* Build configuration list for PBXNativeTarget "RevistaCulturaCia" */;
+			buildPhases = (
+				1377BE17E7D9F5AE8C082DC4 /* Check Pods Manifest.lock */,
+				76ECE63A1CF00E7000ADEC8E /* Sources */,
+				76ECE63B1CF00E7000ADEC8E /* Frameworks */,
+				76ECE63C1CF00E7000ADEC8E /* Resources */,
+				422AF23C52F93EBADF45D896 /* Embed Pods Frameworks */,
+				4C65684892DF7D397C1895CA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevistaCulturaCia;
+			productName = RevistaCulturaCia;
+			productReference = 76ECE63E1CF00E7000ADEC8E /* RevistaCulturaCia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76ECE6361CF00E7000ADEC8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pro Master Solution";
+				TargetAttributes = {
+					76ECE63D1CF00E7000ADEC8E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T2S85GJ7JY;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 76ECE6391CF00E7000ADEC8E /* Build configuration list for PBXProject "RevistaCulturaCia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76ECE6351CF00E7000ADEC8E;
+			productRefGroup = 76ECE63F1CF00E7000ADEC8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76ECE63D1CF00E7000ADEC8E /* RevistaCulturaCia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76ECE63C1CF00E7000ADEC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CBA92D1CF545FE00D6A8BF /* design@2x.png in Resources */,
+				76CBA9481CF61B0700D6A8BF /* phone_disconnected.png in Resources */,
+				76CBA93F1CF5518700D6A8BF /* content@2x.png in Resources */,
+				76CBA94D1CF61D0E00D6A8BF /* edit_property@2x.png in Resources */,
+				76CBA9411CF5524800D6A8BF /* logo140.png in Resources */,
+				76CBA9261CF5348600D6A8BF /* anuncie_Fotor.jpg in Resources */,
+				76CBA9441CF6172D00D6A8BF /* user_manual.png in Resources */,
+				76ECE6511CF00E7200ADEC8E /* LaunchScreen.storyboard in Resources */,
+				76ECE64E1CF00E7200ADEC8E /* Assets.xcassets in Resources */,
+				76CBA91E1CF51A1500D6A8BF /* download150.png in Resources */,
+				76CBA94C1CF61D0E00D6A8BF /* edit_property.png in Resources */,
+				76CBA9241CF52C5C00D6A8BF /* anuncieBanner.png in Resources */,
+				76CBA9491CF61B0700D6A8BF /* phone_disconnected@2x.png in Resources */,
+				7627A44C1D9492B000023CC0 /* GoogleService-Info.plist in Resources */,
+				76CBA92C1CF545FE00D6A8BF /* design.png in Resources */,
+				76CBA93E1CF5518700D6A8BF /* content.png in Resources */,
+				76CBA92F1CF5466300D6A8BF /* Logo_Promaster.png in Resources */,
+				76ECE64C1CF00E7200ADEC8E /* Main.storyboard in Resources */,
+				76CBA91A1CF519B000D6A8BF /* download.png in Resources */,
+				76CBA9501CF90BAB00D6A8BF /* cultura-logo.png in Resources */,
+				7682E95B1E2D56540028F9CB /* rangel.png in Resources */,
+				7664B5611D410C39003DE529 /* logoCultura2.png in Resources */,
+				76CBA91C1CF519D900D6A8BF /* download200.png in Resources */,
+				76CBA9201CF51AE900D6A8BF /* download70.png in Resources */,
+				76CBA9221CF51C2400D6A8BF /* Cópia de download.png in Resources */,
+				76CBA9511CF90BAB00D6A8BF /* cultura-logo@2x.png in Resources */,
+				76CBA9451CF6172D00D6A8BF /* user_manual@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1377BE17E7D9F5AE8C082DC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		422AF23C52F93EBADF45D896 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevistaCulturaCia/Pods-RevistaCulturaCia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C65684892DF7D397C1895CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevistaCulturaCia/Pods-RevistaCulturaCia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76ECE63A1CF00E7000ADEC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76799AE61D88D6FA00FB7996 /* TableJornal.m in Sources */,
+				76ECE6491CF00E7200ADEC8E /* ViewController.m in Sources */,
+				76ECE6461CF00E7200ADEC8E /* AppDelegate.m in Sources */,
+				76ECE65D1CF00F0600ADEC8E /* CellNews.m in Sources */,
+				76CBA9291CF5446E00D6A8BF /* ViewContato.m in Sources */,
+				7627A44F1D94C04D00023CC0 /* CellCalendario.m in Sources */,
+				7664B5641D411019003DE529 /* Reachability.m in Sources */,
+				768BE9A21DE86DC700D84804 /* EdicoesColletionCell.m in Sources */,
+				76ECE6431CF00E7200ADEC8E /* main.m in Sources */,
+				76ECE66C1CF0C84300ADEC8E /* PageContentViewController.m in Sources */,
+				76ECE6691CF0132500ADEC8E /* TableEdicoes.m in Sources */,
+				76ECE6641CF00F3E00ADEC8E /* DatailsNew.m in Sources */,
+				76CBA9561CFBB08D00D6A8BF /* ViewContatoCliente.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76ECE64A1CF00E7200ADEC8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ECE64B1CF00E7200ADEC8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76ECE64F1CF00E7200ADEC8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76ECE6501CF00E7200ADEC8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76ECE6531CF00E7200ADEC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76ECE6541CF00E7200ADEC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76ECE6561CF00E7200ADEC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CC0C6F00ADA61ED7217F71 /* Pods-RevistaCulturaCia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icons;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = RevistaCulturaCia/RevistaCulturaCia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T2S85GJ7JY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RevistaCulturaCia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.promastersolution.revistacorrer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76ECE6571CF00E7200ADEC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97AD20599FA79EFE87D5BCDB /* Pods-RevistaCulturaCia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Icons;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = RevistaCulturaCia/RevistaCulturaCia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T2S85GJ7JY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RevistaCulturaCia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.promastersolution.revistacorrer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76ECE6391CF00E7000ADEC8E /* Build configuration list for PBXProject "RevistaCulturaCia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECE6531CF00E7200ADEC8E /* Debug */,
+				76ECE6541CF00E7200ADEC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76ECE6551CF00E7200ADEC8E /* Build configuration list for PBXNativeTarget "RevistaCulturaCia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECE6561CF00E7200ADEC8E /* Debug */,
+				76ECE6571CF00E7200ADEC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76ECE6361CF00E7000ADEC8E /* Project object */;
+}
