@@ -60,13 +60,11 @@ pod 'Firebase/AdMob'
 3. Open the `.xcworkspace` file in Xcode.
 4. Configure Firebase for messaging and ads.
 
-## Contact
+## 🧑‍💻 **Developers**
 
-For support or inquiries, please contact:
-
-- **Developer:** Fabricio Padua  
-- **Company:** Pro Master Solution  
-- **Website:** [www.promastersolution.com.br](http://www.promastersolution.com.br)
+- **Lead Developer:** Fabricio Aguiar de Padua
+- **LinkedIn:** www.linkedin.com/fabricio-padua  
+- **contact:** fabricio_0505_@hotmail.com
 
 ## License
 
